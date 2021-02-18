@@ -1,55 +1,12 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.header {
-  width: 100%;
-  height: 100vh;
-  background: #1f2235;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-
-.navbar {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  background: #1f2235;
-  z-index: 1;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
-
-.navbar__container {
-  display: flex;
-  height: 100px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.navbar__left-logo img {
-  width: 110px;
-}
-
-.navbar__right {
-  display: flex;
-  list-style-type: none;
-}
-
-.navbar__right li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 18px;
-  padding: 0 15px;
+  background-color: #0A192F;
 }
 
 /* Helpers */
@@ -89,77 +46,21 @@ body {
   width: 33.33333333333333%;
 }
 
-/* header */
-.header__content {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  color: #fff;
-}
+@media (max-width: 765px) {
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
 
-.header__ul {
-  list-style-type: none;
-  display: flex;
-}
+  .col-6 {
+    width: 100%;
+  }
 
-.header__ul li {
-  width: 50px;
-  height: 50px;
-  border: 2px solid #ff4a57;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-  transition: all 0.5s linear;
-  cursor: pointer;
-}
+  .col-3 {
+    width: 100%;
+  }
 
-.header__ul li:hover {
-  background: #fff;
-  border: 2px solid transparent;
-}
-
-.header__ul li:hover .headerIcon {
-  color: #ff4a57;
-}
-
-.header__ul li:first-child {
-  margin-left: 0;
-}
-
-.header__section h1 {
-  font-size: 40px;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.header__section p {
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 40px;
-  margin-bottom: 50px;
-}
-
-.header__buttons {
-  margin-bottom: 50px;
-}
-
-.btn {
-  outline: none;
-  border: none;
-  color: #fff;
-  text-decoration: none;
-}
-
-.btn-outline {
-  border: 2px solid #ff4a57;
-  border-radius: 50px;
-  padding: 13px 40px;
-}
-
-.banner__img {
-  padding: 0 30px;
-  margin-top: 150px;
+  .col-4 {
+    width: 100%;
+  }
 }
