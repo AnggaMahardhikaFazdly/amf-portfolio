@@ -27,12 +27,8 @@
     width: 50%;
 }
 
-.col-4 {
-    width: 33.33333333333333%;
-}
-
 .common {
-    width: 50%;
+    width: 100%;
     margin: 20px auto;
     text-align: center;
 }
@@ -85,13 +81,13 @@
 }
 
 .about__info-p1 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     margin-bottom: 20px;
 }
 
 .about__info-p2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 }
 

@@ -17,6 +17,7 @@ header .header__content {
 
 .header__ul {
     display: flex;
+    font-size: 30px;
 }
 
 .header__ul a {
@@ -25,6 +26,12 @@ header .header__content {
     justify-content: center;
     margin: 5px;
     cursor: pointer;
+    color: #00FF7F !important;
+}
+
+.header__ul a:hover {
+    cursor: pointer;
+    color: #17d1ac !important;
 }
 
 .header__section h2 {

@@ -1,13 +1,12 @@
 import React from "react";
 import './Hero.css';
-import 'boxicons';
 
 const Hero = () => {
     const [state] = React.useState({
         greeting: "Hello,",
         title: "I'm Angga Mahardhika Fazdly",
         text:
-            "Full-Stack Developer based in Jakarta, specializing in designing and building websites, applications, and everything in between that can be a solution to a problem.",
+            "Software Developer based in Jakarta, specializing in designing and building websites, applications, and everything in between that can be a solution to a problem.",
         image: "/images/",
     });
     return (
@@ -25,19 +24,19 @@ const Hero = () => {
                                 </div>
                                 <div className="header__ul">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnggaMahardhikaFazdly">
-                                        <box-icon name='github' type='logo' animation='tada' color='springGreen' size='md'></box-icon>
+                                        <i className='bx bxl-github bx-tada' ></i>
                                     </a>
                                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anggamf/">
-                                        <box-icon name='linkedin' type='logo' animation='tada' color='springGreen' size='md'></box-icon>
+                                        <i className='bx bxl-linkedin bx-tada' ></i>
                                     </a>
                                     <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/anggamf">
-                                        <box-icon name='codepen' type='logo' animation='tada' color='springGreen' size='md'></box-icon>
+                                        <i className='bx bxl-codepen bx-tada' ></i>
                                     </a>
                                     <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@anggamahardhikafazdly">
-                                        <box-icon name='medium-square' type='logo' animation='tada' color='springGreen' size='md'></box-icon>
+                                        <i className='bx bxl-medium-square bx-tada' ></i>
                                     </a>
                                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/anggafazdly_/">
-                                        <box-icon name='instagram' type='logo' animation='tada' color='springGreen' size='md'></box-icon>
+                                        <i className='bx bxl-instagram bx-tada' ></i>
                                     </a>
                                 </div>
                             </div>

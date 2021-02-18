@@ -1,12 +1,5 @@
 import React from "react";
 import './Footer.css';
-import {
-    FaGithub,
-    FaLinkedinIn,
-    FaCodepen,
-    FaMediumM,
-    FaInstagram,
-} from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -15,29 +8,26 @@ const Footer = () => {
                 <div className="contactSection">
                     <div className="row justifyConter">
                         <div className="col-6">
-                            <div className="contactSection-logo">
-                                <img src="/images/logo.jpg" alt="" />
-                            </div>
-                            <div className="contactSection">
+                            <div className="contactSection-text">
                                 <p>Copyright &#169; 2021 Designed & Built by Angga Mahardhika Fazdly.</p>
                             </div>
-                            <ul className="contactCircles">
-                                <li>
-                                    <FaGithub className="contactIcon" />
-                                </li>
-                                <li>
-                                    <FaLinkedinIn className="contactIcon" />
-                                </li>
-                                <li>
-                                    <FaCodepen className="contactIcon" />
-                                </li>
-                                <li>
-                                    <FaMediumM className="contactIcon" />
-                                </li>
-                                <li>
-                                    <FaInstagram className="contactIcon" />
-                                </li>
-                            </ul>
+                            <div className="contact_ul">
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnggaMahardhikaFazdly">
+                                    <i className='bx bxl-github bx-burst' ></i>
+                                </a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anggamf/">
+                                    <i className='bx bxl-linkedin bx-burst' ></i>
+                                </a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/anggamf">
+                                    <i className='bx bxl-codepen bx-burst' ></i>
+                                </a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@anggamahardhikafazdly">
+                                    <i className='bx bxl-medium-square bx-burst' ></i>
+                                </a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/anggafazdly_/">
+                                    <i className='bx bxl-instagram bx-burst' ></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

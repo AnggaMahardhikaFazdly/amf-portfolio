@@ -38,39 +38,34 @@
 }
 
 .contactSection-logo img {
-    margin: 0 auto;
     width: 130px;
 }
 
-.contactSection p {
+.contactSection-text p {
     color: #CBFFE2;
     opacity: 0.6;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.contactCircles {
-    width: 100%;
+.contact_ul {
     display: flex;
-    list-style: none;
-    justify-content: center;
-}
-
-.contactCircles li {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
+    font-size: 30px;
     align-items: center;
     justify-content: center;
-    color: #0A192F;
-    background: #00FF7F;
-    margin: 0 10px;
-    transition: all 0.5s linear;
-    cursor: pointer;
 }
 
-.contactCircles li:hover {
-    background-color: #17d1ac;
+.contact_ul a {
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    color: #00FF7F !important;
+}
+
+.contact_ul a:hover {
+    cursor: pointer;
+    color: #17d1ac !important;
 }

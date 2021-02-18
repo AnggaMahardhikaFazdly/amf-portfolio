@@ -5,7 +5,7 @@ const About = () => {
     const [header] = React.useState({
         subHeader: "About Me",
         text:
-            "I love programming, enjoy complex problems being solved into simple, useful solutions or designs of course beautiful to look at. When I'm not coding, I like seeing this beautiful nature, like camping or going to an area that has a natural panorama.",
+            "I love programming, when I'm not coding, I like camping or going to an area that has a natural panorama.",
     });
     const [state] = React.useState([
         { id: 1, education: "Formal Education:", school: "Trisakti Institute of Transportation and Logistics", majoring: "Bachelor of air transportation management", years: "July 2009 - November 2014" },
@@ -35,8 +35,8 @@ const About = () => {
                             </div>
                             <div className="info__education">
                                 <div className="row">
-                                    {state.map((info) => (
-                                        <div className="col-6">
+                                    {state.map((info, index) => (
+                                        <div className="col-6" key={index}>
                                             <strong>{info.education}</strong>
                                             <p>{info.school}</p>
                                             <p>{info.majoring}</p>
