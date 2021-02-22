@@ -173,7 +173,8 @@
 }
 
 .btn-btn button:hover {
-    background: #17d1ac;
+    background: linear-gradient(235deg, #370156, deeppink);
+    color: #fff !important;
     transform: scale(1.1);
     cursor: pointer;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Navbar, Hero, About, Projects, Footer } from './Components';
+import { Navbar, Hero, About, Skills, Projects, Footer } from './Components';
 import { FaArrowCircleUp } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,6 +25,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <Footer />
       <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{ height: 40, display: showScroll ? 'flex' : 'none' }} />

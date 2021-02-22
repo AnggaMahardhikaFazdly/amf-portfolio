@@ -51,8 +51,8 @@
 }
 
 .nav-links-active:hover {
-    background-color: #17d1ac;
-    color: #0A192F;
+    background: linear-gradient(235deg, #370156, deeppink);
+    color: #fff !important;
     text-decoration: none;
     border-radius: 20px;
     transition: all 0.2s ease-out;
