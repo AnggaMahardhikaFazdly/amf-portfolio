@@ -1,29 +1,28 @@
 .NavbarItems {
+    margin: 0;
     background-color: #0A192F;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    opacity: 0.8;
 }
 
 .navbar-logo {
     width: 100px;
     justify-self: start;
-    margin-left: 0px;
+    margin-right: 3rem;
     cursor: pointer;
 }
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 2rem;
     margin-top: 10px;
 }
 
@@ -31,12 +30,31 @@
     color: #00FF7F;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    opacity: 0.8;
 }
 
 .nav-links:hover {
+    color: #17d1ac;
+    /* color: #0A192F; */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-active {
+    color: #00FF7F;
+    background-color: #2E3D59;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.nav-links-active:hover {
     background-color: #17d1ac;
     color: #0A192F;
-    border-radius: 4px;
+    text-decoration: none;
+    border-radius: 20px;
     transition: all 0.2s ease-out;
 }
 

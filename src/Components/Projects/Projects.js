@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import './Projects.css';
+import { Modal } from 'react-bootstrap';
 
 const Projects = () => {
     const [header] = React.useState({
@@ -53,6 +54,7 @@ const Projects = () => {
         },
 
     ]);
+    const [lgShow, setLgShow] = useState(false);
     return (
         <div className="services">
             <div className="container">
@@ -83,15 +85,38 @@ const Projects = () => {
                                         <button>
                                             <a>View Demo</a>
                                         </button>
+                                        <button onClick={() => setLgShow(true)}>
+                                            <a>Details</a>
+                                        </button>
                                         <button>
                                             <a>Source Code</a>
                                         </button>
                                     </div>
+                                    {/* <div className="btn-btn-btn">
+                                        <button onClick={() => setLgShow(true)}>
+                                            <a>Details</a>
+                                        </button>
+                                    </div> */}
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
+            </div>
+            <div>
+                <Modal
+                    size="lg"
+                    show={lgShow}
+                    onHide={() => setLgShow(false)}
+                    aria-labelledby="example-modal-sizes-title-lg"
+                >
+                    <Modal.Header closeButton>
+                        <Modal.Title id="example-modal-sizes-title-lg">
+                            Large Modal
+                            </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>...</Modal.Body>
+                </Modal>
             </div>
         </div>
     );

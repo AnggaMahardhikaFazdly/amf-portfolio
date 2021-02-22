@@ -79,6 +79,7 @@ header .header__content {
 .cv-btn:hover {
     background-color: #17d1ac;
     color: #0A192F;
+    text-decoration: none;
     transition: all ease 0.5s;
 }
 
