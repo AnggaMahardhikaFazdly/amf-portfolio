@@ -12,42 +12,42 @@ const Projects = () => {
     const [state] = React.useState([
         {
             id: 1,
-            image: "/Images/fabulous-coffee.png",
+            image: "/Images/fabulous-coffee.svg",
             title: "Fabulous Coffee",
             description:
                 "Fabulous Coffee is the most complete single origin supplier website in Indonesia which provides several items of coffee all over Indonesia from Sabang to Merauke.",
         },
         {
             id: 2,
-            image: "/Images/fabulous-coffee.png",
+            image: "/Images/fabulous-coffee.svg",
             title: "Fabulous Coffee",
             description:
                 "Fabulous Coffee is the most complete single origin supplier website in Indonesia which provides several items of coffee all over Indonesia from Sabang to Merauke.",
         },
         {
             id: 3,
-            image: "/Images/fabulous-coffee.png",
+            image: "/Images/fabulous-coffee.svg",
             title: "Fabulous Coffee",
             description:
                 "Fabulous Coffee is the most complete single origin supplier website in Indonesia which provides several items of coffee all over Indonesia from Sabang to Merauke.",
         },
         {
             id: 4,
-            image: "/Images/fabulous-coffee.png",
+            image: "/Images/fabulous-coffee.svg",
             title: "Fabulous Coffee",
             description:
                 "Fabulous Coffee is the most complete single origin supplier website in Indonesia which provides several items of coffee all over Indonesia from Sabang to Merauke.",
         },
         {
             id: 5,
-            image: "/Images/fabulous-coffee.png",
+            image: "/Images/fabulous-coffee.svg",
             title: "Fabulous Coffee",
             description:
                 "Fabulous Coffee is the most complete single origin supplier website in Indonesia which provides several items of coffee all over Indonesia from Sabang to Merauke.",
         },
         {
             id: 6,
-            image: "/Images/fabulous-coffee.png",
+            image: "/Images/fabulous-coffee.svg",
             title: "Fabulous Coffee",
             description:
                 "Fabulous Coffee is the most complete single origin supplier website in Indonesia which provides several items of coffee all over Indonesia from Sabang to Merauke.",

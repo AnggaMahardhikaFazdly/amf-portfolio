@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="row justifyConter">
                         <div className="col-6">
                             <div className="contactSection-text">
-                                <p>Copyright &#169; 2021 Designed & Built by Angga Mahardhika Fazdly.</p>
+                                <p>Copyright &#169; 2021 Designed & Built by AMF</p>
                             </div>
                             <div className="contact_ul">
                                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnggaMahardhikaFazdly">

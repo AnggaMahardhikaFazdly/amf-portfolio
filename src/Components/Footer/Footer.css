@@ -32,21 +32,13 @@
     background-color: #0A192F;
 }
 
-.contactSection-logo {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.contactSection-logo img {
-    width: 130px;
-}
-
 .contactSection-text p {
     color: #CBFFE2;
     opacity: 0.6;
     font-size: 16px;
     text-align: center;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .contact_ul {
@@ -54,6 +46,7 @@
     font-size: 30px;
     align-items: center;
     justify-content: center;
+    margin-left: 30px;
 }
 
 .contact_ul a {
@@ -61,11 +54,5 @@
     align-items: center;
     justify-content: center;
     margin: 5px;
-    cursor: pointer;
     color: #00FF7F !important;
-}
-
-.contact_ul a:hover {
-    cursor: pointer;
-    color: #17d1ac !important;
 }
