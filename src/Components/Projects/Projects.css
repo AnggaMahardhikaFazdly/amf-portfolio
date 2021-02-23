@@ -140,6 +140,8 @@
 .card-title h3 {
     margin-left: 1.2rem;
     margin-top: 0.5rem;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .card-title h3 {
@@ -185,4 +187,13 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 0.7rem;
+}
+
+.btn-btn a:hover {
+    color: #0A192F;
+    text-decoration: none;
+}
+
+.modal-body {
+    height: 80vh;
 }

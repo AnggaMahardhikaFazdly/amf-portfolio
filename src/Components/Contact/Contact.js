@@ -1,8 +1,10 @@
 import React from 'react';
 import './Contact.css';
-import linkedin from '../Assets/linkedin.svg';
-import whatsapp from '../Assets/whatsapp.svg';
-import gmail from '../Assets/gmail.svg';
+import {
+    gmail,
+    linkedin,
+    whatsapp
+} from '../../Assets';
 
 const Contact = () => {
     const [header] = React.useState({
@@ -24,9 +26,27 @@ const Contact = () => {
                         </div>
 
                         <div className="image-contact">
-                            <img src={linkedin} alt='linkedin' />
-                            <img src={whatsapp} alt='whatsapp' />
-                            <img src={gmail} alt='gmail' />
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.linkedin.com/in/anggamf/"
+                            >
+                                <img src={linkedin} alt='linkedin' />
+                            </a>
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://api.whatsapp.com/send/?phone=6281296650700&text&app_absent=0&lang=id"
+                            >
+                                <img src={whatsapp} alt='whatsapp' />
+                            </a>
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="mailto: angga.mahard@gmail.com"
+                            >
+                                <img src={gmail} alt='gmail' />
+                            </a>
                         </div>
                     </div>
                 </div>

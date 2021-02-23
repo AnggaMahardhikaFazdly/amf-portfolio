@@ -1,19 +1,20 @@
 import React from 'react';
 import './Skills.css';
-import html from '../Assets/html5.svg';
-import css from '../Assets/css3.svg';
-import bootstrap from '../Assets/bootstrap.svg';
-import sass from '../Assets/sass.svg';
-import javascript from '../Assets/javascript.svg';
-import react from '../Assets/react.svg';
-import nodejs from '../Assets/nodejs.svg';
-import python from '../Assets/python.svg';
-import mysql from '../Assets/mysql.svg';
-import git from '../Assets/git.svg';
-import github from '../Assets/github.svg';
-import figma from '../Assets/figma.svg';
-import trello from '../Assets/trello.svg';
-
+import {
+    bootstrap,
+    css,
+    figma,
+    git,
+    github,
+    html,
+    javascript,
+    mysql,
+    nodejs,
+    python,
+    react,
+    sass,
+    trello
+} from '../../Assets';
 
 
 const Skills = () => {

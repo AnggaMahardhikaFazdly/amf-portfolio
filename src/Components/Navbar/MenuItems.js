@@ -26,7 +26,9 @@ export const MenuItems = [
     },
     {
         title: 'Resume',
-        url: '#',
+        url: '/images/logo.svg',
+        target: '_blank',
+        rel: 'noopener noreferrer',
         cName: 'nav-links-active'
     }
 
